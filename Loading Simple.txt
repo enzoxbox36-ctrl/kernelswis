@@ -1,0 +1,46 @@
+@echo off
+title Bat Loader
+color 0A
+
+:loading
+cls
+echo.
+echo        🦇 BAT SYSTEM 🦇
+echo.
+echo        Chargement
+echo        [■□□□□]
+ping localhost -n 2 >nul
+
+cls
+echo.
+echo        🦇 BAT SYSTEM 🦇
+echo.
+echo        Chargement
+echo        [■■□□□]
+ping localhost -n 2 >nul
+
+cls
+echo.
+echo        🦇 BAT SYSTEM 🦇
+echo.
+echo        Chargement
+echo        [■■■□□]
+ping localhost -n 2 >nul
+
+cls
+echo.
+echo        🦇 BAT SYSTEM 🦇
+echo.
+echo        Chargement
+echo        [■■■■□]
+ping localhost -n 2 >nul
+
+cls
+echo.
+echo        🦇 BAT SYSTEM 🦇
+echo.
+echo        Chargement
+echo        [■■■■■]
+ping localhost -n 2 >nul
+
+goto loading
